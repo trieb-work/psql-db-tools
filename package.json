@@ -1,6 +1,6 @@
 {
   "name": "@trieb.work/psql-db-tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Installable node module, that can run as CLI to do things like DB seeding etc.",
   "main": "dist/index.js",
   "author": "Jannik Zinkl",
