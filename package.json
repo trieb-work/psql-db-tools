@@ -1,0 +1,27 @@
+{
+  "name": "@trieb.work/psql-db-tools",
+  "version": "0.1.1",
+  "description": "Installable node module, that can run as CLI to do things like DB seeding etc.",
+  "main": "dist/index.js",
+  "author": "Jannik Zinkl",
+  "license": "MIT",
+  "bin": {
+    "seed": "dist/seed.js"
+  },
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "yarn jest"
+  },
+  "dependencies": {
+    "@trieb.work/server-utils": "^0.1.7",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/yargs": "^17.0.8",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
